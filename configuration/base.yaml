@@ -9,7 +9,7 @@ database:
   database_name: "newsletter"
   require_ssl: false
 email_client:
-  base_url: "localhost"
+  base_url: "http://127.0.0.1"
   sender_email: "chandrakiran.g19@iiits.in"
   authorization_token: "token"
   timeout_milliseconds: 10000
